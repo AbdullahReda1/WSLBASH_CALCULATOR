@@ -28,9 +28,9 @@ touch "History_Calculator_file"
 case $OP in
   1) echo "Addition Result :       $X + $Y =  $res  "  >> "History_Calculator_file"
   ;;
-  2) echo "Substraction Result :   $X - $Y =  $res  "  >> "History_Calculator_file"
+  2) echo "Subtraction Result :    $X - $Y =  $res  "  >> "History_Calculator_file"
   ;;
-  3) echo "Multiblication Result : $X * $Y =  $res  "  >> "History_Calculator_file"
+  3) echo "Multiplication Result : $X * $Y =  $res  "  >> "History_Calculator_file"
   ;;
   4) echo "Division Result :       $X / $Y =  $res  "  >> "History_Calculator_file"
   ;;
